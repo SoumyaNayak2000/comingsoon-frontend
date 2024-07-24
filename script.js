@@ -52,7 +52,7 @@ const x = setInterval(() => {
     });
 
     function subscribeToNewsletter(email) {
-        fetch('http://localhost:8080/subscribe', {
+        fetch('https://comingsoon-backend.onrender.com/subscribe', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
