@@ -162,7 +162,7 @@ input::placeholder {
     }
 }
 
-/* Toast container */
+
 .toast-container {
     position: fixed;
     top: 20px;
@@ -173,7 +173,7 @@ input::placeholder {
     gap: 10px;
 }
 
-/* Toast notification */
+
 .toast {
     display: flex;
     align-items: center;
@@ -193,12 +193,10 @@ input::placeholder {
     transform: translateX(0);
 }
 
-/* Toast success style */
 .toast-success {
     background-color: #28a745;
 }
 
-/* Toast error style */
 .toast-error {
     background-color: #dc3545;
 }

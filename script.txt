@@ -37,7 +37,6 @@ const x = setInterval(() => {
     if (distance < 0) {
         clearInterval(x);
         document.querySelector(".time-content").innerHTML = "EXPIRED";
-        // Optional: Clear the localStorage entry if you want to reset the countdown
         localStorage.removeItem('countDownDate');
     }
 }, 1000);
@@ -52,7 +51,7 @@ const x = setInterval(() => {
     });
 
     function subscribeToNewsletter(email) {
-        fetch('http://localhost:8080/subscribe', {
+        fetch('https://comingsoon-backend.onrender.com/subscribe', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
