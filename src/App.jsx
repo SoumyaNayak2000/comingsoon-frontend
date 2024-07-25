@@ -158,6 +158,7 @@ const App = () => {
               onClick={handleSubscribe}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              id='notify-me'
             >
               Notify Me
             </motion.button>
